@@ -22,7 +22,7 @@ num_chars = len(char_list)
 num_cols = 100
 
 #Reading the video file
-cap = cv2.VideoCapture("./Input/Input-vid.mp4")
+cap = cv2.VideoCapture("./Input/Input-Vid-1.mp4")
 
 while True:
     ret,image = cap.read()
